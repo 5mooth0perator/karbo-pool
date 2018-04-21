@@ -1,14 +1,14 @@
-var api = "http://poolhost.com:1117";
+var api = "http://54.89.7.41:8117";
 
-var api_blockexplorer = "http://daemonhost.com:1118";
+var api_blockexplorer = "http://35.173.79.208:32348";
 
-var poolHost = "poolhost.com";
+var poolHost = "54.89.7.41";
 
-var irc = "irc.freenode.net/#poolhost";
+var irc = "irc.freenode.net/#robinhood";
 
-var email = "support@poolhost.com";
+var email = "5mooth0perator@protonmail.ch";
 
-var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
+var cryptonatorWidget = ["btc-brl", "btc-usd", "btc-eur"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
@@ -19,6 +19,9 @@ var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
 var themeCss = "themes/default-theme.css";
 
 var networkStat = {
+    "rhd": [
+        ["54.89.7.41", "http://54.89.7.41:8117"]
+    ],
     "bcn": [
         ["bcn.mypool.name", "http://bcn.mypool.name:8084"],
         ["democats.org", "http://pool.democats.org:7603"]
