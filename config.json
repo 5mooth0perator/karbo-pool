@@ -1,7 +1,7 @@
 {
-    "coin": "karbowanec",
-    "symbol": "KRB",
-    "coinUnits": 1000000000000,
+    "coin": "robinhood",
+    "symbol": "RHD",
+    "coinUnits": 10000,
     "coinDifficultyTarget": 240,
 
     "logging": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "KhnW3G3drtQSN6cUGMKgvJZwctb9dir21CGrcaSxEzmh8mm8RakMooQjeEZ6wVMXwkLm2GqM965ovVnKg3hFCCMYTxYUP8H",
+        "poolAddress": "RH3RhXLT26yRmX2fRxnTcS89u4qdksq23aaT4JDUSze9HWd2USRgkARY3wMgQy3Pg7TNddsaDgAGTTekuiSvpM8g2W86xVVwJ",
         "blockRefreshInterval": 1000,
 		"addressSeparator": ".",
         "minerTimeout": 900,
@@ -80,13 +80,13 @@
 
     "payments": {
         "enabled": true,
-        "interval": 600,
+        "interval": 60,
         "maxAddresses": 50,
-        "mixin": 3,
-        "transferFee": 100000000,
-        "minPayment": 500000000000,
+        "mixin": 0,
+        "transferFee": 1,
+        "minPayment": 10000,
         "maxTransactionAmount": 0,
-        "denomination": 100000000000
+        "denomination": 1
     },
 
     "blockUnlocker": {
@@ -95,7 +95,7 @@
         "depth": 10,
         "poolFee": 2,
         "devDonation": 0.0,
-        "coreDevDonation": 0.1,
+        "coreDevDonation": 3,
         "extraFeaturesDevDonation":0.0
     },
 
@@ -116,7 +116,7 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 19977
+        "port": 32349
     },
 
     "redis": {
